@@ -56,7 +56,7 @@ const codeSnippets = [
 
   const handleViewResume = () => {
     // Open resume in new tab
-    window.open('/Hemanth-resume.pdf', '_blank', 'noopener,noreferrer');
+    window.open('/Hemanth-Updated-MERN-Stack-Resume.pdf', '_blank', 'noopener,noreferrer');
   };
 
   return (
