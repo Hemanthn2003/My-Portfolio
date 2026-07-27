@@ -48,8 +48,8 @@ export const AboutSection = () => {
   // Programmatic download function
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/Hemanth-Updated-MERN-Stack-Resume.pdf'; 
-    link.download = 'Hemanth-Updated-MERN-Stack-Resume.pdf';
+    link.href = '/Hemanth-resume.pdf'; 
+    link.download = 'Hemanth-resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
