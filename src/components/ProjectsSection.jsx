@@ -4,6 +4,28 @@ import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion"
 
 const projects = [
   {
+  id: 10,
+  title: "Library Portal (MERN Stack App) ",
+  category: "Web Application",
+  description: "Full featured Library platform built with React where Admins can create, read, edit and manage Students  with modern UI and also can update their Library Subscription",
+  image: "/projects/LibraryPortal.png",
+ video: "https://drive.google.com/file/d/1r8f3hafj77Qe_1WQ7GtFVM53tizltOKV/view?usp=drivesdk/preview",
+  tags: ["React", "JavaScript", "HTML", "CSS", "Tailwind CSS", "NodeJS" , "MongoDB"],
+  demoUrl: "https://library-portal-omega.vercel.app/",
+  githubUrl: "https://github.com/Hemanthn2003/Library-portal",
+  featured: true,
+  accentColor: "from-orange-500 to-pink-600",
+  status: "Completed",
+  highlights: [
+    "Admin Dashboard",
+    "Create and Edit Students",
+    "Admin(Librarian) can Edit and delete both Students and other Admins(Assistants)",
+    "Responsive blog UI",
+    "Login form",
+    "Modern React components"
+  ]
+},
+  {
     id: 1,
     title: "My Profile",
     category: "Portfolio",
@@ -144,26 +166,6 @@ const projects = [
   accentColor: "from-indigo-500 to-purple-600",
   status: "Completed",
   highlights: ["Resort showcase", "Booking information", "Service details", "Modern UI"]
-},{
-  id: 10,
-  title: "Advanced Blog Application",
-  category: "Web Application",
-  description: "Full featured blog platform built with React where users can create, read, edit and manage blog posts with modern UI",
-  image: "/projects/BlogApp.png",
- video: "https://drive.google.com/file/d/1pq6kD3UmMRMIJQfBQ5TbmQNQbIwuwrtU/preview",
-  tags: ["React", "JavaScript", "HTML", "CSS", "Tailwind CSS,NodeJS"],
-  demoUrl: "#",
-  githubUrl: "#",
-  featured: true,
-  accentColor: "from-orange-500 to-pink-600",
-  status: "Completed",
-  highlights: [
-    "Create and publish blog posts",
-    "Edit and delete articles",
-    "Responsive blog UI",
-    "Search and filter posts",
-    "Modern React components"
-  ]
 }
   
 ];
